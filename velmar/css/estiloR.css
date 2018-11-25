@@ -1,0 +1,62 @@
+#contrasena{
+
+	
+	position: absolute;
+	top: 370px;
+	left:67px;
+
+	
+}
+#correo{
+	position: absolute;
+	top: 273px;
+	left: 65px;
+	
+
+}
+#boton{
+	position: absolute;
+	top: 500px;
+	left: 150px;
+}
+#usuario{
+
+	
+	position: absolute;
+	top: 180px;
+	left:70px;
+}
+
+#nombre{
+	
+	position: absolute;
+	left:63px;
+	top: 90px;
+}
+
+.container{
+	position: relative;
+	top: 70px;
+	background-color: #fff;
+	height: 80vh;
+	width: 25%;
+	min-width: 300px;
+	border-radius: 10px;
+	-webkit-box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+
+}
+.rounded{
+
+}
+i{
+	margin-right: 10px;
+}
+body{
+	background-color: #fff;
+}
+h2{
+	text-align: center
+}
+

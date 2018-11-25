@@ -1,0 +1,50 @@
+#contrasena{
+
+	
+	position: absolute;
+	top: 210px;
+	left:67px;
+
+	
+}
+h1{
+	text-align: center;
+	padding-top: 50px;
+}
+
+#boton{
+	position: absolute;
+	top: 300px;
+	left: 150px;
+}
+#usuario{
+
+	
+	position: absolute;
+	top: 140px;
+	left:70px;
+}
+
+
+
+.container{
+	position: relative;
+	top: 150px;
+
+	background-color: #fff;
+	height: 50vh;
+	width: 25%;
+	min-width: 300px;
+	border-radius: 10px;
+	-webkit-box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+box-shadow: 6px 0px 33px 3px rgba(0,0,0,0.75);
+
+}
+
+i{
+	margin-right: 10px;
+}
+body{
+	background-color: #fff;
+}

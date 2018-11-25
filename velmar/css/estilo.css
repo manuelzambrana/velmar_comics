@@ -1,0 +1,39 @@
+header{
+background: #2c3e50;
+color: #fff;
+
+}
+article{
+	background: #BA1658;
+	
+}
+.color{
+	background: #2a3b50;
+	color: #fff;
+}
+/*#login{
+	position: relative;
+    left: 700px;
+}
+#registro{
+	position: relative;
+    left: 720px;
+}*/
+form .logout{
+	position: relative !important;
+    left: 1000px !important;
+    bottom: 50px;
+}
+	
+#logo{
+	position: absolute;
+	right: 190px !important;
+
+}
+
+.descripcion{
+
+	margin-top: 100px;
+	margin-right: 100px;
+
+}
