@@ -27,6 +27,7 @@ aqui la vemos
 # Parte del Admin
 
 Login del admin
+juan-juan
 <img src="imagenes/admin.png">
 
 y aqui podemos ver la lista de usuario y podemos eliminarlos
