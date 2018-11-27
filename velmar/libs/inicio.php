@@ -1,6 +1,10 @@
 <?php  
 //iniciamos session
 $sesion=session_start();
+if (!isset($_SESSION["usuario"])){
+	header("location:../index.php");
+
+}
 
 
 
@@ -126,7 +130,7 @@ function buscar() {
 </form>
 	<?php 
 			if($_SESSION){
-			echo "<h4 style=\"color: white; position: absolute; left: 700px; bottom: 20px;\">"."Bienvenido ".$_SESSION['usuario']."</h4>";
+			echo "<h4 style=\"color: white; position: absolute; left: 700px; bottom: 20px;\">"."Bienvenid@ ".$_SESSION['usuario']."</h4>";
 		}
 
 
@@ -161,7 +165,8 @@ function buscar() {
 			</div> 
 
 			<a id="more" href="#">cargar más</a>
-			<a id="menos" href="#">cargar menos</a>
+			<a id="menos" href="#" style="    position: relative;
+    left: 100px;">cargar menos</a>
 
 
 		</div>
@@ -171,4 +176,14 @@ function buscar() {
 
 
 
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
 </html>
