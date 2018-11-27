@@ -2,6 +2,10 @@
 //conexion a la bbdd y obtenemos todos los usuarios
 
 $sesion=session_start();
+if (!isset($_SESSION["usAdmin"])){
+        header("location:loginAdmin.php");
+
+}
 require_once "Database.php";
 
 $db= Database::getInstancia();
